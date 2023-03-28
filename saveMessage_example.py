@@ -1,10 +1,10 @@
 from cryptographyFramework import *
 
 initializeWrite()
-user = "Fulano"
-password = "1234"
-encryptedText = encryptMessage(user, password, "Minha mensagem secreta!")
+user = "Mateus"
+password = "8765"
+encryptedText = encryptMessage(user, password, "Aqui há um segredo")
 saveNewLine(encryptedText)
-encryptedText = encryptMessage(user, password, "Minha segunda mensagem secreta!")
+encryptedText = encryptMessage(user, password, "Aqui é outro segredo")
 saveNewLine(encryptedText)
 
